@@ -1,4 +1,31 @@
 <% include partials/header.ejs %>
     <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+    <!-- Contact Form -->
+    <div class="container">
+    	<form method="post" action="#">
+    		<fieldset class="form-group">
+    			<legend>Name</legend>
+    			<label for="first-name">First name:</label>
+    			<input type="text" id="first-name" name="first-name" class="form-control">
+    			<label for="last-name">Last name:</label>
+    			<input type="text" id="last-name" name="last-name" class="form-control">
+    		</fieldset>
+    		<fieldset class="form-group">
+    			<legend>Contact</legend>
+    			<label for="email">Email:</label>
+    			<input type="email" id="email" name="email" class="form-control">
+    			<label for="phone-number">Phone #</label>
+    			<input type="tel" id="phone-number" name="phone-number" class="form-control">
+    			<label for="website-url">Website:</label>
+    			<input type="url" id="website-url" name="website-url" class="form-control">
+    		</fieldset>
+    		<fieldset class="form-group">
+    			<legend>Message</legend>
+    			<textarea name="contact-message" id="contact-message" rows="5" class="form-control">Write you message here</textarea>
+    		</fieldset>
+    		<div class="g-recaptcha" data-sitekey="6LcGWRgTAAAAABiPIbfG4naxI6LeXd6uv7dPqAZ4"></div>
+    		<button type="submit" class="btn btn-success btn-lg">Submit</button>
+    	</form>
+    </div>
 <% include partials/footer.ejs %>
