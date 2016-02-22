@@ -1,13 +1,41 @@
+.welcome {
+	background: url('../images/home-background1.jpg') no-repeat center;
+	background-color: #ACACAE;
+	background-size: cover;
+	background-position: top 0px center;
+	width: 100%;
+	height: 100%;
+	padding-top: 10%;
+	padding-bottom: 40%;
+}
+
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
 a {
   color: #00B7FF;
 }
 
-main {
-	padding: 10%;
+.my-skills {
+	background: url('../images/grainy-background.jpg') no-repeat center;
+	background-color: #ACACAE;
+	background-size: cover;
+	background-position: top 0px center;
+	width: 100%;
+	height: 100%;
+	padding-top: 10%;
+	padding-bottom: 40%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.my-skills > div {
+	padding: 5%;
 }
 
 footer {
