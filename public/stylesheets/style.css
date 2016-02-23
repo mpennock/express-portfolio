@@ -78,6 +78,7 @@
 .icon-linkedin:before {
     content: "\eac8";
 }
+
 .welcome {
 	background: url('../images/home-background1.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -86,7 +87,17 @@
 	width: 100%;
 	height: 100%;
 	padding-top: 10%;
-	padding-bottom: 40%;
+	padding-bottom: 25%;
+}
+
+.welcome p {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.welcome h2 {
+	margin-bottom: 2%;
 }
 
 body {
@@ -97,6 +108,16 @@ body {
 	margin-bottom: 0;
 	border-radius: 0;
 }
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
 a {
   color: #00B7FF;
 }
@@ -162,6 +183,33 @@ a {
 
 .about-me p {
 	width: 50%;
+}
+
+.projects {
+	background: url('../images/grainy-background.jpg') no-repeat center;
+	background-color: #ACACAE;
+	background-size: cover;
+	background-position: top 0px center;
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+
+.project-thumbnail {
+	background: rgba(44,62,80,.2);
+	border: 5px solid #fff;
+	padding-top: 5%;
+	text-align: center;
+}
+
+.contact-page {
+	background: url('../images/grainy-background.jpg') no-repeat center;
+	background-color: #ACACAE;
+	background-size: cover;
+	background-position: top 0px center;
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 15%;
 }
 
 footer {
