@@ -1,6 +1,14 @@
-<% include partials/header.ejs %>
-<section class="fluid-container contact-page">
+<!-- 
+filename: header.js
+author: Martin Pennock
+website: martinpennock.com
+description: This is the contact page for my portfolio site
+-->
 
+<!-- include header -->
+<% include partials/header.ejs %>
+
+<section class="fluid-container contact-page">
     <!-- Contact Form -->
     <div class="container">
     <h1><%= title %></h1>
@@ -25,6 +33,8 @@
     			<legend>Message</legend>
     			<textarea name="contact-message" id="contact-message" rows="5" class="form-control">Write you message here</textarea>
     		</fieldset>
+
+            <!-- reCaptcha & submit buttonb -->
     		<div class="g-recaptcha" data-sitekey="6LcGWRgTAAAAABiPIbfG4naxI6LeXd6uv7dPqAZ4"></div>
     		<button type="submit" class="btn btn-success btn-lg">Submit</button>
     	</form>

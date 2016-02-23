@@ -1,4 +1,9 @@
-
+/*
+filename: header.js
+author: Martin Pennock
+website: martinpennock.com
+description: This is the stylesheet for all my custom styles
+*/
 
 /* ===== Fonts ===== */
 @font-face {
@@ -79,7 +84,13 @@
     content: "\eac8";
 }
 
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* ===== Top section of home page =====*/
 .welcome {
+	/* full width background */
 	background: url('../images/home-background1.jpg') no-repeat center;
 	background-color: #ACACAE;
 	background-size: cover;
@@ -100,15 +111,13 @@
 	margin-bottom: 2%;
 }
 
-body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
+/* ===== Navigation ===== */
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
 }
 
+/* center nav items */
 .navbar-nav {
   width: 100%;
   text-align: center;
@@ -118,10 +127,12 @@ body {
   display: inline-block;
 }
 
+/* default link colour */
 a {
   color: #00B7FF;
 }
 
+/* ===== Skills section on main page ===== */
 .my-skills {
 	background: url('../images/grainy-background.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -139,6 +150,7 @@ a {
 	padding: 5%;
 }
 
+/* ===== services section ===== */
 .services {
 	background: url('../images/pexels-photo.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -157,13 +169,13 @@ a {
 	background: rgba(44,62,80,.6);
 }
 
+/* ===== short section at bottom to link to contact me ===== */
 .lets-connect {
 	background: url('../images/grainy-background.jpg') no-repeat center;
 	background-color: #ACACAE;
 	background-size: cover;
 	background-position: top 0px center;
 	width: 100%;
-/*	height: 100%;*/
 	padding-top: 5%;
 	padding-bottom: 5%;
 	border-top: 5px solid #8d9093;	
@@ -171,6 +183,7 @@ a {
 	text-align: center;
 }
 
+/* ===== main section for about page ===== */
 .about-me {
 	background: url('../images/grainy-background.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -185,6 +198,7 @@ a {
 	width: 50%;
 }
 
+/* ===== projects page ===== */
 .projects {
 	background: url('../images/grainy-background.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -195,6 +209,7 @@ a {
 	padding-bottom: 15%;
 }
 
+/* style thumbnails*/
 .project-thumbnail {
 	background: rgba(44,62,80,.2);
 	border: 5px solid #fff;
@@ -202,6 +217,7 @@ a {
 	text-align: center;
 }
 
+/* ===== contact page ===== */
 .contact-page {
 	background: url('../images/grainy-background.jpg') no-repeat center;
 	background-color: #ACACAE;
@@ -212,6 +228,11 @@ a {
 	padding-bottom: 15%;
 }
 
+form {
+	width: 50%;
+}
+
+/* ===== footer styles ===== */
 footer {
 	background-color: #292c2f;
 	color: #8d9093;
@@ -223,6 +244,7 @@ footer {
 	border-top: 5px solid #8d9093;
 }
 
+/* ===== social media links ===== */
 .social-links {
 	list-style: none;
 	width: 100%;
@@ -237,10 +259,9 @@ footer {
 .social-links li a {
 	color: #8d9093;
 }
+
+/* fine print */
 .copy {
 	clear: both;
 }
 
-form {
-	width: 50%;
-}

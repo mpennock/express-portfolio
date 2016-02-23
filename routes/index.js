@@ -1,3 +1,10 @@
+/*
+filename: header.js
+author: Martin Pennock
+website: martinpennock.com
+description: This is the index.js page for getting and rendering the various pages
+*/
+
 var express = require('express');
 var router = express.Router();
 

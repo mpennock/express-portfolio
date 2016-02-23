@@ -1,5 +1,14 @@
+<!-- 
+filename: header.js
+author: Martin Pennock
+website: martinpennock.com
+description: This is the main page for my portfolio site
+-->s
+
+<!-- include the header -->
 <% include partials/header.ejs %>
 
+<!-- main landing section of site -->
 <section class="container-fluid welcome">
 	<article class="row">
 		<div class="col-md-12 text-center">
@@ -10,6 +19,8 @@
 		</div>
 	</article>
 </section>
+
+<!-- skills section -->
 <section class="container-fluid my-skills text-center">
 	<h2>My Skills</h2>
 	<div class="container">
@@ -43,6 +54,8 @@
 		</div>
 	</div>
 </section>
+
+<!-- services section -->
 <section id="services" class="container-fluid services text-center">
 	<h2>My Services</h2>
 	<div class="container">
@@ -82,7 +95,11 @@
 		</div>
 	</div>
 </section>
+
+<!-- quick link to contact me call to action -->
 <section class="container-fluid lets-connect">
 	<h3>Lets Collaborte! <a href="/contact">Contact me today</a></h3>
 </section>
+
+<!-- include footer -->
 <% include partials/footer.ejs %>
